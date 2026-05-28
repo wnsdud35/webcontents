@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <style>
+        html, body {
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+        } 
+
+        nav {
+            width: 20%;
+            height: 82%;
+            background: orange;
+            float: left;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        section {
+            width: 80%;
+            height: 82%;
+            background: lightblue;
+            float: left;
+            overflow: auto;
+            box-sizing: border-box;
+            padding: 20px;
+        } 
+
+        footer {
+            height: 8%;
+            background: plum;
+            clear: left;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        body {
+            background-color: aliceblue;
+        }
+
+        h1 {
+            color: brown;
+            text-align: center;
+        }
+
+        #header {
+            border-bottom: 1px solid #000000;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        nav ul {
+            border: 1px dashed #777777;
+            padding: 20px 20px 20px 40px;
+            list-style-position: inside;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            font-family: "휴먼편지체", "Comic Sans MS", sans-serif;
+            font-size: 1em;
+            text-indent: 1em;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: blue;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="header">
+            <h1>About me</h1>
+            <p>
+                안녕하세요? 제 이름은 전준영입니다. 올해 대학교를 입학한 새내기입니다.<br>
+                다양한 관심분야와 취미 활동을 하고 있습니다. 즐거운 하루 되세요~
+            </p>
+        </div>
+
+        <div id="navigation">
+            <h2>목차</h2>
+            <ul>
+                <li><a href="#interest">관심분야</a></li>
+                <li><a href="#hobbies">취미활동</a></li>
+                <li><a href="#schedule">강의시간표</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="container">
+            <div id="interest">
+                <h2>관심분야</h2>
+                <hr>
+                <ul>
+                    <li>인공지능(AI)
+                        <ul>
+                            <li>머신러닝(Machine Learning)</li>
+                            <li>자연어 처리(Natural Language Processing, NLP)</li>
+                            <li>컴퓨터 비전(Computer Vision)</li>
+                            <li>로보틱스(Robotics)</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>사물인터넷(IoT)
+                        <ul>
+                            <li>사물(Things): 센서, 액추에이터 등 통신 기능을 갖춘 다양한 기기</li>
+                            <li>센서(Sensors): 온도, 습도, 빛, 움직임 등 환경 정보를 감지하는 장치</li>
+                            <li>네트워크(Network): 사물과 인터넷을 연결하는 통신망 (Wi-Fi, Bluetooth, 5G 등)</li>
+                            <li>플랫폼(Platform): 수집된 데이터를 저장, 분석, 처리하는 소프트웨어 시스템</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>컴퓨터 아키텍처 및 시스템
+                        <ul>
+                            <li>운영체제(OS): 하드웨어와 소프트웨어 간의 자원을 관리하는 핵심 시스템 연구</li>
+                            <li>임베디드 시스템: 가전이나 자동차 등 특정 목적의 기기에 최적화된 하드웨어 제어</li>
+                            <li>병렬 컴퓨팅: 동시에 여러 연산을 수행하여 처리 성능을 극대화하는 기법</li>
+                            <li>컴파일러: 프로그래밍 언어를 컴퓨터가 이해할 수 있는 기계어로 변환하는 기술</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <br>
+
+            <div id="hobbies">
+                <h2>취미활동</h2>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>게임</th>
+                            <th>런닝</th>
+                            <th>영어공부</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="Media/Gaming.png" alt="게임" width="200"></td>
+                            <td><img src="Media/Running.png" alt="런닝" width="200"></td>
+                            <td><img src="Media/Studing EN.png" alt="영어공부" width="200"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <br>
+
+            <div id="schedule">
+                <h2>강의 시간표(2026년 1학기)</h2>
+                <hr>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>월</th>
+                            <th>화</th>
+                            <th>수</th>
+                            <th>목</th>
+                            <th>금</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00</td><td></td><td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>10:00</td><td></td><td></td>
+                            <td rowspan="4">인터넷 콘텐츠<br>(603호)</td>
+                            <td rowspan="4">컴퓨터과학개론<br>(608호)</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11:00</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>12:50</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>13:00</td><td></td><td></td>
+                            <td rowspan="4">SW개발문제해결능력<br>(608호)</td>
+                            <td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td rowspan="5">프로그래밍언어실습I<br>(603호)</td>
+                            <td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>15:00</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>15:25</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td><td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>17:00</td><td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td><td></td><td></td><td></td><td></td><td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="survey4.html">설문조사</a>
+        <br><br>
+        Copyright 2026 by JeonJunYeong
+    </footer>
+</body>
+</html>
